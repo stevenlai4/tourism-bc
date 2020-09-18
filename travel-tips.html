@@ -3,72 +3,91 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="css/style.css" rel="stylesheet" />
         <title>Tavel Tips - BC Tourism</title>
     </head>
     <body>
-        <!-- Header -->
-        <header>
-            <h1>Travel British Columbia</h1>
-            <hr />
+        <div id="wrapper">
+            <!-- Header -->
+            <header>
+                <h1 id="main-title">Travel British Columbia</h1>
 
-            <h2>Rediscover BC</h2>
+                <div class="nav-main-subtitle">
+                    <!-- Navigation -->
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Fall 2020</a></li>
+                            <li><a href="travel-tips.html">Travel Tips</a></li>
+                            <li>
+                                <a href="contact.html">Contact a Tour Guide</a>
+                            </li>
+                        </ul>
+                    </nav>
 
-            <!-- Navigation -->
-            <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Fall 2020</a></li>
-                <li><a href="travel-tips.html">Travel Tips</a></li>
-                <li><a href="contact.html">Contact a Tour Guide</a></li>
-            </ul>
+                    <h2 id="main-subtitle">Rediscover BC</h2>
+                </div>
+            </header>
 
-            <img src="images/banner2.jpg" alt="Banner2 Image" width="1100px" />
-        </header>
+            <!-- Banner -->
+            <section id="tips-banner"></section>
 
-        <!-- Travel Tips-->
-        <div class="tips">
-            <h2>Travel Tips:</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Tempora, laudantium porro quidem repudiandae enim laborum
-                accusamus minima earum eos. Labore qui, unde autem assumenda
-                similique blanditiis! Quibusdam alias totam dolorem.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate illum adipisci natus atque aspernatur id voluptatem
-                sed repellat incidunt maiores sint quos nisi quibusdam deleniti,
-                quae molestias temporibus veritatis minus!
-            </p>
+            <main>
+                <!-- Travel Tips-->
+                <div id="tips">
+                    <h2>TRAVEL TIPS:</h2>
+                    <div class="tips-descriptions">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Tempora, laudantium porro quidem repudiandae
+                            enim laborum accusamus minima earum eos. Labore qui,
+                            unde autem assumenda similique blanditiis! Quibusdam
+                            alias totam dolorem.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Cupiditate illum adipisci natus atque
+                            aspernatur id voluptatem sed repellat incidunt
+                            maiores sint quos nisi quibusdam deleniti, quae
+                            molestias temporibus veritatis minus!
+                        </p>
+                    </div>
 
-            <ul>
-                <li>
-                    Language: After English and Chinese, the most common mother
-                    tongue languages spoken are Punjabi, German, Italian,
-                    French, Tagalog (Filipino) and Spanish.
-                </li>
-                <li>
-                    Currency: Visitors should use Canadian currency (the
-                    Canadian Dollar - CAD) when travelling within Canada.
-                </li>
-                <li>
-                    Campingfires: Forest Fires are a real danger in British
-                    Columbia. Fire bans and regulations should be followed
-                    seasonally.
-                </li>
-            </ul>
+                    <div class="tips-list">
+                        <ul>
+                            <li>
+                                Language: After English and Chinese, the most
+                                common mother tongue languages spoken are
+                                Punjabi, German, Italian, French, Tagalog
+                                (Filipino) and Spanish.
+                            </li>
+                            <li>
+                                Currency: Visitors should use Canadian currency
+                                (the Canadian Dollar - CAD) when travelling
+                                within Canada.
+                            </li>
+                            <li>
+                                Campingfires: Forest Fires are a real danger in
+                                British Columbia. Fire bans and regulations
+                                should be followed seasonally.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Questions? -->
+                <h2 class="questions">
+                    STILL HAVE QUESTIONS? ASK A
+                    <a href="contact.html">TOUR GUIDE</a>
+                </h2>
+            </main>
+
+            <!-- Footer -->
+            <footer>
+                <p>&copy; British Columbia Tourism 2020</p>
+
+                <p>Contact us at <a href="contact.html">Tourism BC</a></p>
+            </footer>
         </div>
-
-        <!-- Questions? -->
-        <h2>
-            Still have questions? Ask a <a href="contact.html">tour guide</a>
-        </h2>
-
-        <!-- Footer -->
-        <footer>
-            <hr />
-            <p>&copy; British Columbia Tourism 2020</p>
-
-            <p>Contact us at <a href="contact.html">Tourism BC</a></p>
-        </footer>
     </body>
 </html>
