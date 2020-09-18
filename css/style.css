@@ -1,0 +1,150 @@
+/* Global */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d0efff;
+    margin: 0;
+}
+
+#wrapper {
+    width: 90%;
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+h1,
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial;
+}
+
+/* header, footer and main */
+header *,
+footer {
+    color: #fff;
+    margin: 0;
+}
+
+#main-title,
+footer {
+    background-color: #3c556b;
+    padding: 20px;
+}
+
+main,
+#main-subtitle,
+footer {
+    text-align: center;
+}
+
+main {
+    padding: 0 2%;
+}
+
+/* header */
+.nav-main-subtitle {
+    background-color: #062539;
+}
+
+#main-title {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#main-subtitle {
+    font-size: 40px;
+    font-weight: 400;
+    padding: 70px 0 30px 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #1167b1;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+nav ul {
+    list-style-type: none;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* banners */
+#index-banner {
+    background-image: url('../images/banner.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+
+/* Explore BC */
+
+.explore-bc h2 {
+    margin: 70px 0;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.explore-bc img {
+    float: left;
+    width: 47%;
+    padding: 0 10px;
+}
+
+.explore-bc p {
+    float: left;
+    padding-left: 15px;
+    margin: 0;
+    width: 53%;
+    text-align: justify;
+}
+
+/* Outdoors */
+.outdoors {
+    clear: both;
+    padding-top: 60px;
+    margin-bottom: 50px;
+}
+
+.outdoors h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.outdoors p {
+    padding-right: 25%;
+    padding-left: 25%;
+    text-align: left;
+}
+
+.outdoor-figures figure {
+    display: inline-block;
+}
+
+.outdoor-figures img {
+    width: 300px;
+}
