@@ -112,6 +112,16 @@ nav a {
     border-bottom: 3px solid;
 }
 
+#contact-banner {
+    background-image: url('../images/banner3.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+
 /* Explore BC */
 
 .explore-bc h2 {
@@ -169,7 +179,7 @@ nav a {
 
 .tips-descriptions,
 .tips-list {
-    padding: 0 30%;
+    padding: 0 25%;
     text-align: left;
 }
 
@@ -177,7 +187,49 @@ nav a {
     margin: 50px 0 100px 0;
 }
 
+.tips-list ul {
+    padding-left: 20px;
+}
+
 .questions {
     font-weight: 100;
     font-size: 40px;
+}
+
+/* Ask a Tour Guide! */
+#tour-guide h2 {
+    margin: 70px 0 40px 0;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+#tour-guide form {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 15px;
+    text-align: left;
+    background-color: #dcdcdc;
+    border-radius: 4px;
+}
+
+form input[type='text'],
+form select,
+form textarea {
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type='submit'] {
+    color: #fff;
+    background-color: #062539;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* Hours of Operation */
+#hours-of-operation {
+    margin-bottom: 70px;
 }

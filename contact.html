@@ -3,87 +3,92 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="css/style.css" rel="stylesheet" />
         <title>Contact - BC Tourism</title>
     </head>
     <body>
-        <!-- Header -->
-        <header>
-            <h1>Travel British Columbia</h1>
-            <hr />
+        <div id="wrapper">
+            <!-- Header -->
+            <header>
+                <h1 id="main-title">Travel British Columbia</h1>
 
-            <h2>Rediscover BC</h2>
+                <div class="nav-main-subtitle">
+                    <!-- Navigation -->
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Fall 2020</a></li>
+                            <li><a href="travel-tips.html">Travel Tips</a></li>
+                            <li>
+                                <a href="contact.html">Contact a Tour Guide</a>
+                            </li>
+                        </ul>
+                    </nav>
 
-            <!-- Navigation -->
-            <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Fall 2020</a></li>
-                <li><a href="travel-tips.html">Travel Tips</a></li>
-                <li><a href="contact.html">Contact a Tour Guide</a></li>
-            </ul>
+                    <h2 id="main-subtitle">REDISCOVER BC</h2>
+                </div>
+            </header>
 
-            <img src="images/banner3.jpg" alt="Banner3 Image" width="1100px"/>
-        </header>
+            <!-- Banner -->
+            <section id="contact-banner"></section>
 
-        <!-- Ask a Tour Guide! -->
-        <div class="tour-guide">
-            <h3>Plan the Perfect Trip: Ask a Tour Guide:</h3>
+            <main>
+                <!-- Ask a Tour Guide! -->
+                <section id="tour-guide">
+                    <h2>PLAN THE PERFECT TRIP:<br />ASK A TOUR GUIDE:</h2>
 
-            <!-- Hours of Operation -->
-            <div class="hours-of-operation">
-                <h3>Hours of Operation:</h3>
-                <p>Mon - Fri 9:00AM - 5:00PM</p>
-            </div>
+                    <!-- Form -->
+                    <form>
+                        <label for="first-name">First Name</label>
+                        <input
+                            type="text"
+                            id="first-name"
+                            name="first-name"
+                            placeholder="Your name.."
+                        />
 
-            <!-- Deal of the Month -->
-            <div class="month-deal">
-                <h3>Deal of the Month:</h3>
-                    <table class="month-deal-table">
-                        <thead>
-                            <tr>
-                                <th>Month</td>
-                                <th>Deal</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>September</td>
-                                <td>$100 Off a Hotel Stay</td>
-                            </tr>
-                            <tr>
-                                <td>March</td>
-                                <td>50% Off Travel Guide Fees</td>
-                            </tr>
-                            <tr>
-                                <td>June</td>
-                                <td>10% Off Campsite Booking</td>
-                            </tr>
-                            <tr>
-                                <td>August</td>
-                                <td>50% Off Wineries</td>
-                            </tr>
-                        </tbody>
-                    </table>
-            </div>
+                        <label for="last-name">Last Name</label>
+                        <input
+                            type="text"
+                            id="last-name"
+                            name="last-name"
+                            placeholder="Your last name.."
+                        />
 
-            <!-- Contact by Phone -->
-            <div class="phone">
-                <h3>Contact us by phone:</h3>
-                <a href="tel:7788999090">778-899-9090</a>
-            </div>
+                        <label for="country">Country</label>
+                        <select name="country" id="country">
+                            <option>Choose your country..</option>
+                            <option value="England">England</option>
+                            <option value="Canada">Canada</option>
+                            <option value="America">America</option>
+                            <option value="Spain">Spain</option>
+                        </select>
 
-            <!-- Contact by Email -->
-            <div class="email">
-                <h3>Or Email Us:</h3>
-                <a href="mailto:bctourism@travel.com">bctourism@travel.com</a>
-            </div>
+                        <label for="subject">Subject</label>
+                        <textarea
+                            id="subject"
+                            name="subject"
+                            rows="10"
+                            placeholder="Write something.."
+                        ></textarea>
+
+                        <input type="submit" value="Submit" />
+                    </form>
+
+                    <!-- Hours of Operation -->
+                    <div id="hours-of-operation">
+                        <h3>Hours of Operation:</h3>
+                        <p>Mon - Fri <br />9:00AM - 5:00PM</p>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Footer -->
+            <footer>
+                <p>&copy; British Columbia Tourism 2020</p>
+
+                <p>Contact us at <a href="contact.html">Tourism BC</a></p>
+            </footer>
         </div>
-
-        <!-- Footer -->
-        <footer>
-            <hr />
-            <p>&copy; British Columbia Tourism 2020</p>
-
-            <p>Contact us at <a href="contact.html">Tourism BC</a></p>
-        </footer>
     </body>
 </html>
